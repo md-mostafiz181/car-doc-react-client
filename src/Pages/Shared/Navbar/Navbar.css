@@ -1,0 +1,39 @@
+#navbar-part{
+    padding: 0 10px;
+    /* background-color: green; */
+    
+}
+
+#navbar-part li a{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+li a:focus-visible{
+    outline: none;
+}
+
+li a:focus{
+    background-color: transparent !important;
+}
+
+li a:hover{
+    background: transparent !important;
+    color: green;
+}
+
+li a:active{
+    outline: none;
+    box-shadow: none;
+    background: transparent !important;
+}
+
+.btn-appointment{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #FF3811;
+    border-radius: 10px;
+    color: #FF3811;
+}
