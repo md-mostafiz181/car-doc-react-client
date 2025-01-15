@@ -1,12 +1,56 @@
 #banner-part{
     padding: 20px 0px;
+
 }
+
+
 
 #banner-part .img1{
     background-image: url(../../../assets/images/banner/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 300px 0;
+    padding: 450px 0;
+    position: relative;
+  
+
+}
+#banner-part .img2{
+    background-image: url(../../../assets/images/banner/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 450px 0;
+    position: relative;
+
+}
+#banner-part .img3{
+    background-image: url(../../../assets/images/banner/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 450px 0;
+    position: relative;
+
+}
+#banner-part .img4{
+    background-image: url(../../../assets/images/banner/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 450px 0;
+    position: relative;
+
+}
+#banner-part .img5{
+    background-image: url(../../../assets/images/banner/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 450px 0;
+    position: relative;
+
+}
+#banner-part .img6{
+    background-image: url(../../../assets/images/banner/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 450px 0;
     position: relative;
 
 }
@@ -16,6 +60,68 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: black;
+    background: linear-gradient(285deg, #ffffff41, #d3d3d338, #a9a9a960, #80808136, #5a5a5b88, #363637de, #161617bd);
     position: absolute;
+
+}
+
+#banner-part .banner-text{
+    top: 50%;
+    color: white;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.btn1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF3811;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border: 2px solid #FF3811;
+    transition: .4s;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    
+}
+
+.btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+    transition: .4s;
+}
+
+.btn2:hover{
+    background-color: #FF3811;
+   border: 2px solid transparent;
+}
+.swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    background-color: #FF3811;
+    border-radius: 50%;
+}
+.swiper-button-prev::after{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.swiper-button-next{
+    width: 40px;
+    height: 40px;
+    background-color: #FF3811;
+    border-radius: 50%;
+}
+.swiper-button-next::after{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
